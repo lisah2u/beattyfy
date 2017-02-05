@@ -10,6 +10,14 @@ setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
 user <- getUser("beattyfy")
 dms <- dmGet()
 
+# Get last 25 dms
+# Eliminate those from the previous 24 hours
+# If this is 0, then repeat?
+# Does this look like a math question?
+# If you see a mathematical expression, respond with answer
+# If you can parse it, answer, if not apologize
+# Log
+
 # log
 # line <- paste(as.character(Sys.time()), tweettxt, sep="t")
 # write(line, file="tweets.log", append=TRUE)
